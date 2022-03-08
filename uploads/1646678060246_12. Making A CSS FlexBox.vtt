@@ -1,0 +1,286 @@
+WEBVTT
+
+00:00.360 --> 00:06.600
+Hello and welcome to this lecture and then this lecture will go ahead and create a simple flex box and
+
+00:06.600 --> 00:10.840
+see how elements are actually going to be laid out in a flex box.
+
+00:11.060 --> 00:14.610
+So before learning about flex box so creating a flex box.
+
+00:14.610 --> 00:20.050
+Let's first go ahead and understand how developments are actually placed in a normal container.
+
+00:20.400 --> 00:26.880
+So in the in the previous lecture you have actually learned about Glass and how they can be used to
+
+00:26.910 --> 00:30.660
+basically separate have separate sections on a web page.
+
+00:30.720 --> 00:33.550
+So let's not go ahead and create a div class over here.
+
+00:33.600 --> 00:38.140
+So let's name this class as let's say container.
+
+00:38.400 --> 00:43.700
+And what we will do is that we'll go ahead and place some items or elements into this div.
+
+00:43.800 --> 00:45.780
+So those actually become the developments.
+
+00:45.780 --> 00:51.480
+So what I'll do here is that I simply go ahead and create some classes over here.
+
+00:51.510 --> 00:54.660
+So let's say we have you your here.
+
+00:56.340 --> 00:59.870
+So let's see this is our first development.
+
+00:59.910 --> 01:01.690
+Let's create another one.
+
+01:01.760 --> 01:09.100
+Class this is going to be let's say B and let's have the third one and let's call it a seat.
+
+01:09.200 --> 01:11.420
+So the Class C.
+
+01:11.480 --> 01:16.700
+So once we have these three elements let's actually go ahead and give it some kind of styling so that
+
+01:16.730 --> 01:19.760
+we should be able to see those elements on our Web page.
+
+01:19.760 --> 01:25.370
+So what we are doing here is that we are basically having a look at how exactly these developments are
+
+01:25.370 --> 01:28.840
+going to look like when you place them in a container.
+
+01:29.090 --> 01:31.980
+So let's go ahead and style these elements up.
+
+01:32.060 --> 01:35.900
+So let's tile them individually and let's give them different colors.
+
+01:36.020 --> 01:45.270
+So we'll type in let's say the minimum of this is going to be 150 pixels and let's say the height is
+
+01:45.270 --> 01:47.930
+going to be 150 pixels as well.
+
+01:48.840 --> 01:54.480
+And what I will do here is that I'll copy the same property for all the three boxes over here.
+
+01:54.480 --> 01:58.650
+So this is going to be B and this one is going to be c..
+
+01:59.220 --> 02:02.060
+So we are essentially having some boxes over here.
+
+02:02.490 --> 02:08.260
+And in order to identify these boxes what we really do is that we will have a different background color
+
+02:08.310 --> 02:09.910
+for each one of them.
+
+02:09.960 --> 02:18.310
+So the background color for this one is going to be let's say blue let's say the Baggott on Carlo for
+
+02:18.310 --> 02:22.960
+this one is going to be the red background color is red.
+
+02:23.020 --> 02:26.970
+And let's say the background color for the final one is going to be green.
+
+02:27.040 --> 02:31.930
+So the background color for this is going to be green.
+
+02:32.410 --> 02:32.710
+OK.
+
+02:32.710 --> 02:38.110
+So now once we have them let's actually go ahead and see how these elements are going to look like in
+
+02:38.110 --> 02:39.260
+this container.
+
+02:39.670 --> 02:45.760
+So if you go back over here hit refresh as you could see this is how the elements are actually stacked.
+
+02:45.760 --> 02:50.590
+So you have specified the minimum with 150 but I think we have zoomed in over here.
+
+02:50.590 --> 02:53.490
+So let me just zoom out a little bit.
+
+02:53.680 --> 03:00.220
+And as you could see as we have the elements stacked up over here these are actually going to be displayed
+
+03:00.220 --> 03:00.790
+like that.
+
+03:00.820 --> 03:03.830
+And this is actually because we are using a normal container.
+
+03:03.910 --> 03:07.800
+So now let's learn what happens when we actually use a flex container.
+
+03:08.110 --> 03:13.960
+So in order to make any container or flex what we have to do is that we have to simply go ahead and
+
+03:13.960 --> 03:16.160
+you have to set the property for that container.
+
+03:16.300 --> 03:20.850
+So if you want to set the property for the container we use that last select of container.
+
+03:20.980 --> 03:22.770
+So not container.
+
+03:23.560 --> 03:27.490
+And that's actually going to have a simple property which is display.
+
+03:27.490 --> 03:33.990
+And we said this display property to flex and where you want to use a flex container or flex box.
+
+03:34.030 --> 03:39.460
+So when we do that and when we go back we're here and now if we hit refresh as you could see now you
+
+03:39.460 --> 03:45.040
+can see that all those elements are actually now placed in this particular fashion.
+
+03:45.040 --> 03:50.440
+That is they are not any longer stacked on top of each other and said they are actually placed right
+
+03:50.440 --> 03:52.170
+next to each other.
+
+03:52.180 --> 03:59.440
+Now if you want to see where exactly the container is you can simply go ahead and you can give the container
+
+03:59.440 --> 04:00.640
+a particular color.
+
+04:00.970 --> 04:03.750
+So let's just give this a yellow color.
+
+04:03.760 --> 04:12.700
+So what I will do here is that I just type in background color and I'll just assign it to your local
+
+04:12.750 --> 04:13.470
+low.
+
+04:13.600 --> 04:17.240
+So now you'll be able to see exactly the kind in place.
+
+04:17.290 --> 04:23.650
+So if we hit refresh as it could see this thing is our entire container and these items actually arranged
+
+04:23.650 --> 04:25.660
+into that container side by side.
+
+04:25.660 --> 04:31.390
+Now what do you still want to make it stack on top of each other from top to bottom and sort of stacking
+
+04:31.390 --> 04:32.270
+it like that.
+
+04:32.320 --> 04:38.590
+One way is that you can go ahead and you can change the display type of this thing by simply removing
+
+04:38.590 --> 04:39.090
+it all.
+
+04:39.110 --> 04:43.520
+Either way is that you can use a property which is called less flex direction.
+
+04:43.570 --> 04:46.880
+So as I mentioned the flex actually has two axis.
+
+04:46.900 --> 04:48.660
+The main axis on the cross axis.
+
+04:48.700 --> 04:54.610
+So right now by default the main axis which we have is actually going to be the rule.
+
+04:54.640 --> 04:57.010
+So the elements are going to be stacked in a row.
+
+04:57.010 --> 05:03.420
+But when you do find the axes to be a column those elements are now going to be stacked top to bottom.
+
+05:03.430 --> 05:06.660
+So let's go ahead and add a Flagstad action proper to here.
+
+05:06.710 --> 05:13.330
+So Flex direction and now if we said to do column let's see what exactly happens.
+
+05:13.330 --> 05:18.190
+So then we go back over here hit refresh as it could see now the elements are going to be arranged in
+
+05:18.190 --> 05:20.500
+a top to bottom fashion.
+
+05:20.500 --> 05:27.010
+Now the reason why the elements actually spanning the entire thing is because we have set the minimum
+
+05:27.220 --> 05:29.040
+property for them.
+
+05:29.080 --> 05:34.810
+So if you actually to replace this minimum weight with let's say just with it's actually going to stop
+
+05:34.810 --> 05:36.640
+spending the entire space.
+
+05:36.640 --> 05:41.860
+So now if we go back over here and hit refresh as you could see this thing is not going to spend the
+
+05:41.860 --> 05:48.760
+entire space available to it what minimum means is that at least we should have a word which is these
+
+05:48.760 --> 05:54.110
+many pixels and it can extend as long as that container actually allows it to do.
+
+05:54.370 --> 05:57.310
+And that's why this actually is going to spend the entire world.
+
+05:57.310 --> 05:58.780
+Now let's do one thing over here.
+
+05:58.810 --> 06:04.300
+Let's actually get back to our code and change the flex direction.
+
+06:04.300 --> 06:09.630
+So by default when you don't specify any flex selection the direction is going to be wrong.
+
+06:09.640 --> 06:13.050
+And that's why the elements are going to be arranged in this fashion.
+
+06:13.150 --> 06:17.700
+So that's how you can actually make a simple flex container which we have made right here.
+
+06:17.710 --> 06:24.460
+So the simple method of making a flex container is that you simply make a of here and while styling
+
+06:24.460 --> 06:29.650
+the drive glass in CSSA you simply use display property here and set it to flex.
+
+06:29.650 --> 06:32.710
+And that's going to make your container of like Xbox.
+
+06:32.740 --> 06:34.130
+So that's it for this lecture.
+
+06:34.150 --> 06:38.970
+And in the next one we're actually going to learn about like glue and flex shrink.
+
+06:38.980 --> 06:42.550
+So thank you very much for watching and I'll see you guys next time.
+
+06:42.730 --> 06:43.180
+Thank you.

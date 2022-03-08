@@ -1,0 +1,370 @@
+WEBVTT
+
+00:00.090 --> 00:01.780
+Hello and welcome to this lecture.
+
+00:01.830 --> 00:06.770
+And in this lecture we're going to learn something about CSSA Galo values.
+
+00:06.960 --> 00:13.390
+So right now we have actually designed this particular web page and we have used a few colors here.
+
+00:13.590 --> 00:18.780
+So what we have essentially done here is that if you open up this code we have specified the colors
+
+00:18.780 --> 00:24.870
+in the actual values by the actual names like orange red Popal blue and aqua.
+
+00:24.870 --> 00:31.860
+Now in reality what happens is that whatever you want to set the color for any HDMI element you can
+
+00:31.890 --> 00:39.120
+either name the color by a specific name or you can also use something which is called as an RGV value.
+
+00:39.250 --> 00:45.540
+So before we start discussing LGB rally let's actually go ahead and learn how we can give a background
+
+00:45.540 --> 00:49.230
+color to this particular Web site or this boy or webpage.
+
+00:49.230 --> 00:55.290
+So in order to give the background of both regular color and what we can do here is that we could use
+
+00:55.320 --> 01:00.880
+this particular body tag because the body of our HGA is nothing but the background.
+
+01:00.900 --> 01:07.610
+So what we can do is that in order to set the background color we have to actually modify the body tag.
+
+01:07.620 --> 01:10.770
+So let's actually go ahead to use the body Diago here.
+
+01:11.220 --> 01:15.060
+So this is actually the tax collector and let's specify the background color.
+
+01:15.300 --> 01:22.200
+So the background color of any HDMI element or basically any HDMI body can actually be said by using
+
+01:22.200 --> 01:29.820
+the property you would just call less background color so simply type and background hyphen color background
+
+01:29.820 --> 01:35.670
+dash color and you or you can actually simply specify a particular color and that color is going to
+
+01:35.670 --> 01:37.460
+be applied to your webpage.
+
+01:37.680 --> 01:41.580
+But in reality you can't actually use a particular color.
+
+01:41.570 --> 01:48.450
+Instead you have to use a combination of multiple colors or a particular shade of color because obviously
+
+01:48.450 --> 01:51.890
+we are not going to use these direct colors on our Web site.
+
+01:51.920 --> 01:56.330
+Sometimes we need to mix up those colors and use a combination of colors.
+
+01:56.340 --> 02:02.150
+Now there are actually thousands of colors and it's impossible to name each one of those colors.
+
+02:02.280 --> 02:08.760
+Hence what we do in order to solve this issue is that we have no specific way to define Kallos in terms
+
+02:08.760 --> 02:10.650
+of IGB values.
+
+02:10.890 --> 02:17.310
+So IGB values are nothing but the values for red and green and blue colors and every shade of a color
+
+02:17.310 --> 02:22.480
+is nothing but a combination of those three basic clothes which is red green and blue.
+
+02:22.650 --> 02:28.890
+So you can opt in any kind of color just by mixing these three colors in appropriate proportions and
+
+02:28.890 --> 02:34.770
+you may have your own color and redo the exact same thing in here in computers as well now a combination
+
+02:34.830 --> 02:38.180
+of IGB can give us any desired Colobus if you want.
+
+02:38.400 --> 02:45.010
+So instead of specifying the Coloe here in actual names we can actually specify the IGB value here.
+
+02:45.090 --> 02:47.580
+So we simply open IGB over here.
+
+02:48.090 --> 02:54.030
+And once you type this value you can add value for each one of those colors that is Oggi and beat.
+
+02:54.300 --> 03:00.410
+So the minimum value of a color is zero and the maximum value of a color is 255.
+
+03:00.420 --> 03:07.440
+So if you actually want to make this background color look blue you have zero value for red zero value
+
+03:07.440 --> 03:10.530
+for green and use 255 for blue.
+
+03:10.560 --> 03:13.700
+That's actually going to make the background completely blue.
+
+03:13.710 --> 03:18.550
+So if you go back over here hit refresh as you could see you now have a blue color.
+
+03:18.780 --> 03:24.450
+Now what exactly you will do if you want to use a shade of a color or a combination of color rather
+
+03:24.450 --> 03:26.420
+than using a specific color.
+
+03:26.520 --> 03:32.430
+So you simply go with this thing and this is going to give you a color picture where you can pick up
+
+03:32.460 --> 03:33.920
+any color which you want.
+
+03:33.930 --> 03:39.410
+So let's say you want to choose the shades of colors from these colors here.
+
+03:39.660 --> 03:44.390
+You can simply go here and you can also select any kind of shade which you want.
+
+03:44.400 --> 03:53.170
+So let's say if you want this particular color so the IGB values for this color 151 220 195.
+
+03:53.210 --> 03:58.940
+So when you go back save the code and if you hit refresh on this web page as you could see now you have
+
+03:58.940 --> 04:00.930
+a different set of color as your background.
+
+04:00.950 --> 04:07.750
+And this color does not have any name but instead it has something which is called as the IGB value.
+
+04:07.880 --> 04:14.630
+So you can use any values from 0 to 255 for each one of those red green and blue values and you will
+
+04:14.630 --> 04:16.710
+get your desired color which you want.
+
+04:17.530 --> 04:22.070
+Now we have already said the background color using this particular attribute.
+
+04:22.090 --> 04:28.630
+But you can also said the colors of beheadings paragraphs and other HGL elements using IGB.
+
+04:28.630 --> 04:35.460
+Now there is one more way of using IGB and that's basically call as GBM.
+
+04:35.500 --> 04:40.030
+So let's go ahead and understand what IGB It actually stands for.
+
+04:40.270 --> 04:43.760
+So the key in RGV stands for Alpha.
+
+04:43.840 --> 04:51.070
+So Alpha is basically nothing but the value for APCP that means how transparent you want to make your
+
+04:51.230 --> 04:51.890
+background.
+
+04:52.090 --> 04:54.910
+So the value of Alfar ranges from zero to 1.
+
+04:54.910 --> 05:00.720
+So when you specify Alpha as zero that means your background is going to be fully transparent.
+
+05:00.970 --> 05:07.840
+And when you specify the value of Alfar to be one that means your background is going to be not transparent
+
+05:07.840 --> 05:08.620
+at all.
+
+05:08.620 --> 05:11.350
+Now let's take a simple example to understand that.
+
+05:11.350 --> 05:18.270
+So let's say our Coloe values are zero for red 255 for green and zero for red.
+
+05:18.280 --> 05:20.830
+So that's actually going to give you a green color.
+
+05:21.190 --> 05:24.910
+So just to confirm we will actually see the code go back over here.
+
+05:24.910 --> 05:28.220
+Hit refresh as you can see we have a green color here.
+
+05:28.300 --> 05:34.480
+Now let's see if you want to make this background a little bit transparent so we can go ahead and add
+
+05:34.480 --> 05:37.660
+a fourth value here which is going to be the Alfar value.
+
+05:37.800 --> 05:39.370
+But before we do do that.
+
+05:39.370 --> 05:43.370
+We need to specify IDB Eloy here coma.
+
+05:43.780 --> 05:49.020
+And for the value of the Alfar value Bubel specify some particular number.
+
+05:49.240 --> 05:53.860
+So let's say we specify the Alpha as 0.5.
+
+05:54.110 --> 05:59.290
+And now if you go back over here and hit refresh as you could see you will notice a little bit of change
+
+05:59.290 --> 06:03.480
+in the background color and the background is now a little more transparent.
+
+06:03.820 --> 06:07.220
+So what if you actually said this value to zero.
+
+06:07.470 --> 06:10.640
+And that gives your background is going to be completely transparent.
+
+06:10.680 --> 06:17.580
+So if you hit refresh as you can see you will have no color at all because now you value for Alpha is
+
+06:17.580 --> 06:20.640
+zero which means it's completely transparent.
+
+06:20.790 --> 06:24.540
+So you can use Alfar for setting of the transparency as you want.
+
+06:24.660 --> 06:30.480
+So you can use either IGB or Oggi be evaluated as and when required.
+
+06:30.480 --> 06:35.380
+Now let's move on to another kind of color notation that's basically the hex values.
+
+06:35.400 --> 06:41.050
+So it can actually be specified using hex values or hexadecimal values as well.
+
+06:41.280 --> 06:49.030
+So if you want to actually specify close in hex value those values actually range from 0 to f f.
+
+06:49.070 --> 06:51.470
+So the Hick's model actually works this way.
+
+06:51.680 --> 06:58.910
+We use a hash or we're here first and then we have values for our two places for our two places for
+
+07:00.290 --> 07:07.660
+and two places for B that means you specify the value for it in hexadecimal here here value for green
+
+07:07.670 --> 07:13.310
+in hexadecimal or here and kilobyte useful blue in hexadecimal over here.
+
+07:13.340 --> 07:19.700
+So let's say if I type in so let's say I type and some random values over here let's say I type in 0
+
+07:19.730 --> 07:23.060
+0 1 do 1 4.
+
+07:23.480 --> 07:26.810
+So these are now hex values and the scale actually is black.
+
+07:26.810 --> 07:32.620
+So if I select any one of these values over here and you always need to make sure that you select hex
+
+07:32.620 --> 07:33.410
+values.
+
+07:33.560 --> 07:40.010
+So the same set of clothes which can be expressed using the IGB model can also be specified by using
+
+07:40.010 --> 07:41.120
+the hex values.
+
+07:41.210 --> 07:43.550
+So let's say you want to choose a shade of red.
+
+07:43.550 --> 07:45.530
+Simply go away here.
+
+07:45.650 --> 07:47.380
+Pick any desired shade you want.
+
+07:47.390 --> 07:51.410
+And this particular value is the hex value for this particular color.
+
+07:51.650 --> 07:56.420
+So now you could simply see the code go back over here and when you hit refresh as you could see now
+
+07:56.420 --> 07:58.570
+you have the Kaluga values over here.
+
+07:59.000 --> 08:06.590
+Now once we know about the IGB values and the hex values let's actually now go ahead and learn how exactly
+
+08:06.590 --> 08:12.800
+do you find proper sooted colors for your website because obviously we know how to choose colors but
+
+08:12.830 --> 08:15.830
+we don't yet know how to choose good looking colors.
+
+08:15.860 --> 08:26.390
+So in order to find good looking colors simply open up Google and type in CS's what DTL Gallo's and
+
+08:26.390 --> 08:28.620
+multiple sites should pop up right here.
+
+08:28.730 --> 08:34.730
+You can use any one of them which you want and what these sites do is that they provide you with the
+
+08:34.730 --> 08:38.030
+Coloe palette which you can actually use on your Web site.
+
+08:38.180 --> 08:42.230
+So let's say for example you like this particular color you think it looks pretty.
+
+08:42.230 --> 08:49.820
+You can simply copy this particular value go back to your code and simply piece this value in over here
+
+08:50.490 --> 08:52.050
+and you should be good to go.
+
+08:52.140 --> 08:57.650
+So now if you go back to your web page and hit refresh as you could see your web page looks much better
+
+08:57.660 --> 09:02.850
+ask compared to the previous one because now they actually provide you with a good set of colors to
+
+09:02.850 --> 09:04.820
+choose from for your website.
+
+09:04.830 --> 09:11.310
+So there are actually a lot of Web sites you don't need to specifically go and choose any one you can
+
+09:11.310 --> 09:15.870
+choose any desired one and they basically provide you with the shades of color along with their hecks
+
+09:15.930 --> 09:18.220
+RGV values.
+
+09:18.260 --> 09:24.740
+So that's it for this lecture and I hope you guys were able to learn how to set the colors for different
+
+09:25.520 --> 09:31.290
+elements in your H-G page using two different methods or three different Montfort's.
+
+09:31.490 --> 09:37.030
+The GBM method the IGB method and the hexadecimal or the hex values.
+
+09:37.130 --> 09:42.620
+And we have also learned how you can select or choose proper colors for your websites rather than choosing
+
+09:42.620 --> 09:44.070
+it by yourself.
+
+09:44.090 --> 09:48.010
+So that's it for this lecture and I'll see you guys in the next one.
+
+09:48.170 --> 09:48.720
+Thank you.

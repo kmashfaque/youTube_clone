@@ -1,0 +1,184 @@
+WEBVTT
+
+00:00.570 --> 00:02.470
+Hello and welcome to this lecture.
+
+00:02.550 --> 00:08.880
+And in this lecture we'll go ahead and learn how we can set the background image for our website using
+
+00:08.980 --> 00:09.790
+CCS.
+
+00:10.080 --> 00:16.470
+So what we can actually do is that just as we can set a background color to our Web site we can also
+
+00:16.470 --> 00:19.340
+actually go ahead and set up a bag and image as well.
+
+00:19.470 --> 00:25.230
+So in order to set up a back and own image we need to understand where exactly that image is going to
+
+00:25.230 --> 00:26.070
+come from.
+
+00:26.070 --> 00:29.800
+So for example let's see if you're building a real web site.
+
+00:29.850 --> 00:34.420
+And let's see if you want to add a background image to that particular Web site.
+
+00:34.500 --> 00:41.970
+What you have to do is that you have to go ahead and put that image up onto your cell wall because obviously
+
+00:42.060 --> 00:47.430
+unless and until that image is president on your server you won't be able to add that image to your
+
+00:47.430 --> 00:48.150
+Web site.
+
+00:48.570 --> 00:55.110
+So the image is actually a resource which is going to be required by your Web site and henceforth that
+
+00:55.110 --> 00:58.350
+resos should actually be present on your server.
+
+00:58.920 --> 01:01.950
+So right now we are not working with so was yet.
+
+01:01.950 --> 01:06.300
+So how exactly are you going to add image to our Web site.
+
+01:06.310 --> 01:12.780
+So one interesting thing which you can do here is that even if the image is not hosted on your so you
+
+01:12.780 --> 01:15.990
+can use images which are hosted on someone else's world.
+
+01:16.020 --> 01:20.950
+So for example you can simply go ahead and search for an image on the Internet.
+
+01:21.060 --> 01:28.290
+And once you have the path of that particular image you can use the path of that image to add it up
+
+01:28.290 --> 01:29.620
+onto your site.
+
+01:29.670 --> 01:32.910
+So let's see how exactly that thing is going to work out.
+
+01:32.910 --> 01:39.370
+So let me just open up Google and we're actually going to search for an image.
+
+01:39.500 --> 01:41.500
+So simply go ahead and search for.
+
+01:41.720 --> 01:44.980
+Let's say the Web site
+
+01:47.930 --> 01:49.640
+backdown.
+
+01:50.130 --> 01:54.450
+So when you go ahead and search for a website background you are going to get a bunch of options in
+
+01:54.450 --> 01:54.720
+here.
+
+01:54.780 --> 02:03.030
+So simply go to images and let's say if you want to choose any particular image so most probably choose
+
+02:03.030 --> 02:07.190
+an image which actually suits your website's resolution.
+
+02:07.200 --> 02:11.850
+So I guess Google 80 by 720 would be a nice resolution.
+
+02:11.850 --> 02:15.790
+So now you simply have to right click and open this image in a new tab.
+
+02:16.140 --> 02:22.320
+So as soon as you open this image in a new tab this particular address which you get right here is nothing
+
+02:22.350 --> 02:29.630
+but the address of this image on the Internet which means that this particular image is actually presentable.
+
+02:29.640 --> 02:37.410
+So at this particular location which means we can simply copy this address and we can use this image
+
+02:37.440 --> 02:42.960
+as and when you want but just make sure that the image which you're using is not copyright protected
+
+02:42.990 --> 02:45.810
+and you do have the right to use that image.
+
+02:45.810 --> 02:48.180
+So this is just for the sake of an example.
+
+02:48.360 --> 02:51.920
+I'm just going to go ahead show you how exactly this works.
+
+02:51.930 --> 02:58.790
+So now once we have that image in order to add that image as a background of whole Web site the Cecils
+
+02:58.800 --> 03:02.830
+property which will be using is the background image property.
+
+03:03.090 --> 03:13.000
+So in order to add that a boy here I can simply type in background image and in here we just need to
+
+03:13.000 --> 03:14.320
+specify the order.
+
+03:14.410 --> 03:21.180
+So we type and you are stating that we are going to add in a are in here and give double quotes over
+
+03:21.200 --> 03:22.540
+here and just paste.
+
+03:22.590 --> 03:29.220
+You are liar which you have copied pasted away here and the statement with the semi-colon.
+
+03:29.240 --> 03:29.870
+See the code.
+
+03:29.890 --> 03:31.870
+And then you get to go.
+
+03:31.870 --> 03:39.640
+So now if you go back to your website and hit refresh now you have this particular image as your background.
+
+03:39.740 --> 03:45.620
+So that's how you can actually go ahead and set up a background image for your web site but just make
+
+03:45.620 --> 03:49.770
+sure that any image which you select is going to be of a proper size.
+
+03:49.970 --> 03:55.030
+Because what happens is that let's say if you select some other image which is of a lesser size.
+
+03:55.280 --> 04:02.120
+So let's say we choose this particular image which is 600 by 350 600 by 350.
+
+04:02.150 --> 04:07.400
+Emerge is only going to go with a certain portion of your website and the rest of the part of your website
+
+04:07.490 --> 04:09.490
+is going to be empty.
+
+04:09.620 --> 04:15.170
+So just make sure that whatever emerges you're choosing actually fits your monitor screen or your computer
+
+04:15.170 --> 04:17.440
+screen and you should be good to go.
+
+04:17.870 --> 04:19.420
+So that's it for this lecture.
+
+04:19.430 --> 04:24.520
+Hopefully you guys were able to understand how to add background images using scissors.
+
+04:24.590 --> 04:28.660
+So thank you very much for watching and I'll see you guys next time.
+
+04:28.970 --> 04:29.440
+Thank you.

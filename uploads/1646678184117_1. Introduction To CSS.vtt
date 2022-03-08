@@ -1,0 +1,229 @@
+WEBVTT
+
+00:00.360 --> 00:02.120
+Hello and welcome to this lecture.
+
+00:02.160 --> 00:07.860
+And in this lecture we will learn what exactly this is and why do you use it.
+
+00:07.860 --> 00:14.400
+So until now we have learned a few things about each year and each year as we all know is used to define
+
+00:14.400 --> 00:18.300
+the structure of your web page that is lay out elements on your web page.
+
+00:18.390 --> 00:23.820
+But if you want to make your web page look more attractive if you want to enhance the look and feel
+
+00:23.820 --> 00:29.240
+of the elements present on your web page then that's where this actually comes into picture.
+
+00:29.580 --> 00:33.000
+So CS's actually stands for a cascading style sheet.
+
+00:33.030 --> 00:37.850
+So it's basically a file which has all the styling related to your web page.
+
+00:37.890 --> 00:44.860
+So what redo is that instead of mixing the styling off particular web page inside the HGA.
+
+00:44.910 --> 00:48.230
+We actually separate the structure and styling from each other.
+
+00:48.480 --> 00:54.870
+So your HMO document is actually going to have the code that is the structure of your web page whereas
+
+00:54.870 --> 01:01.250
+the cascading style sheet is going to hold all the code which is responsible for styling up your HDMI
+
+01:01.320 --> 01:02.060
+element.
+
+01:02.130 --> 01:06.540
+So in that we have two different entities which are much more easier to manage.
+
+01:06.690 --> 01:13.620
+So obviously using scissors is a huge advantage and also siestas has certain attributes and properties
+
+01:13.620 --> 01:17.420
+which can be used to better style and HDMI element.
+
+01:17.520 --> 01:23.050
+So as it is it's actually a language which describes the style of an age old document.
+
+01:23.430 --> 01:26.370
+So why exactly do we use CSSA.
+
+01:26.460 --> 01:31.600
+So the first and foremost reason is that it provides an enhanced user experience.
+
+01:31.650 --> 01:39.300
+So if you are just using H-G for styling you won't be able to style that Web site in much more Bedol
+
+01:39.300 --> 01:44.970
+way or in a decent way and your web site is still going to look like those sites from the 90s.
+
+01:44.970 --> 01:53.190
+And obviously if you have those sites in 2018 then your users are not going to get the kind of experience
+
+01:53.190 --> 01:55.580
+they expect from using your web site.
+
+01:55.830 --> 02:01.560
+And so it's extremely important that you use Yesus to enhance your user experience and CIRCE's allows
+
+02:01.560 --> 02:03.200
+you to do just that.
+
+02:04.940 --> 02:11.120
+It makes your website look much more professional so seasons has a ton of properties which can be used
+
+02:11.120 --> 02:16.970
+to make your website look much more professional as opposed to each year which only has the capability
+
+02:16.970 --> 02:19.180
+to manage the structure of your speech.
+
+02:19.220 --> 02:25.040
+So if you have to make your website look much more professional and much more nuance and much more user
+
+02:25.040 --> 02:27.670
+friendly than see is this is the only way to go.
+
+02:29.210 --> 02:32.140
+Actually makes your website look much more trustworthy.
+
+02:32.160 --> 02:37.500
+So if you are having a Dewani graphics or nice design on your website that's actually going to help
+
+02:37.620 --> 02:40.520
+increase the trustworthiness of your web site.
+
+02:40.530 --> 02:43.650
+So let's assume if you are developing some e-commerce Web site.
+
+02:43.650 --> 02:47.670
+And if your Web site is completely new the people are not aware of it.
+
+02:47.910 --> 02:53.520
+And if your website looks data then people actually don't trust your website as much.
+
+02:53.520 --> 02:58.980
+So if your Web site has a good experience if it looks professional it is also going to make it look
+
+02:58.980 --> 03:03.200
+trustworthy and hence people are going to shop more from your website.
+
+03:03.210 --> 03:09.180
+So this is why companies are spending thousands of dollars on web design specifically in order to make
+
+03:09.180 --> 03:15.120
+their website look much more appealing to the user so that the user not only spends more time on their
+
+03:15.120 --> 03:20.840
+web site but also develop a trust in their site and eventually buys from them.
+
+03:20.850 --> 03:26.210
+So these are few and one does up using success and this is why I see this should be used.
+
+03:26.250 --> 03:31.710
+Now let's actually go ahead and take a sample scenario so as to understand why I see this should be
+
+03:31.710 --> 03:33.750
+used in terms of practicality.
+
+03:33.780 --> 03:39.540
+So let's say you have 4 HDMI files and let's say these represent the four different web pages which
+
+03:39.540 --> 03:41.630
+are present on your complete Web site.
+
+03:41.760 --> 03:46.540
+And let's say all of them actually have a share button which looks something like this.
+
+03:46.560 --> 03:52.440
+So you have designed the share button and the styling of those buttons is actually encoded in your HGA.
+
+03:52.650 --> 03:57.990
+So you actually have to code that button every single time and every single HDMI piece.
+
+03:58.050 --> 04:04.570
+So what this allows you to do is that's uses allow you to basically control the styling of all the full
+
+04:04.750 --> 04:12.440
+pages inside a single file so you only have to define the styling of that button once inside he says.
+
+04:12.480 --> 04:17.830
+And you can refer to that styling inside each one of those each Steimle files.
+
+04:17.850 --> 04:24.240
+So now what happens is that let's say if your boss is unhappy with the button design and he wants you
+
+04:24.240 --> 04:26.890
+to make a slight change that particular button.
+
+04:26.910 --> 04:32.310
+So what you could simply do here is that you could simply open up your CIRCE's file make a single change
+
+04:32.310 --> 04:38.010
+in your button and that change is going to be reflected on all of the 4 HDMI pages.
+
+04:38.310 --> 04:44.790
+So this is the beauty of success and if you are not using C then what would have happened is that you
+
+04:44.790 --> 04:51.720
+would have go to each and every single Each team will file find the button change the button code for
+
+04:51.750 --> 04:54.120
+each one of those single least hemol files.
+
+04:54.120 --> 04:59.400
+Now imagine like if you have a thousand web pages you hardcoded the button inside those thousands of
+
+04:59.400 --> 05:04.560
+Beacham old files you would have to manually go through all of those Shamal files and change the styling
+
+05:04.560 --> 05:05.610
+of each button.
+
+05:05.760 --> 05:09.000
+And that's going to be quite inconvenient.
+
+05:09.060 --> 05:14.430
+So CS's actually makes your job easier by having one point of control for the design and that's the
+
+05:14.430 --> 05:18.870
+reason why Actually you separate the designing part from the structure of your webpage.
+
+05:19.110 --> 05:20.520
+So that's it for this lecture.
+
+05:20.520 --> 05:24.500
+Hopefully you guys be able to understand what exactly is.
+
+05:24.650 --> 05:26.420
+So let's recap one more time.
+
+05:26.420 --> 05:29.040
+C S is actually stands for cascading style sheet.
+
+05:29.040 --> 05:34.920
+It's basically a file which contains C as a score which allows you to style your HGA malware paste.
+
+05:34.920 --> 05:40.800
+The reason why we use this is that it basically provides a user experience which makes your web site
+
+05:40.830 --> 05:43.560
+look more professional and trustworthy.
+
+05:43.560 --> 05:49.620
+So in the next lecture we will go ahead and learn how exactly can we get to see his file and use it
+
+05:49.620 --> 05:51.790
+to style our HMO web page.
+
+05:51.810 --> 05:55.920
+So thank you very much for watching and I'll see you guys next time.
+
+05:56.190 --> 05:56.680
+Thank you.
