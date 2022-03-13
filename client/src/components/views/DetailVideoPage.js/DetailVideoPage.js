@@ -47,7 +47,7 @@ const DetailVideoPage = (props) => {
                 //   />,
                 <Subscriber
                   userTo={Video.writer._id}
-                  userForm={localStorage.getItem("userId")}
+                  userFrom={localStorage.getItem("userId")}
                 />,
               ]}
             >

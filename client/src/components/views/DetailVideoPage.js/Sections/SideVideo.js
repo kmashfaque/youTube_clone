@@ -20,7 +20,10 @@ const SideVideo = () => {
     var seconds = Math.floor(video.duration - minutes * 60);
 
     return (
-      <div style={{ display: "flex", marginTop: "1rem", padding: "0 2rem" }}>
+      <div
+        style={{ display: "flex", marginTop: "1rem", padding: "0 2rem" }}
+        key={index}
+      >
         <div style={{ width: "40%", marginRight: "1rem" }}>
           <a style={{ color: "gray" }} href={`/video/${video._id}`}>
             <img

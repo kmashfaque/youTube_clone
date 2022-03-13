@@ -26,8 +26,8 @@ function LandingPage() {
     var seconds = Math.floor(video.duration - minutes * 60);
 
     return (
-      <Col lg={6} md={8} xs={24}>
-        <div key={index} style={{ position: "relative", margin: "5px" }}>
+      <Col lg={6} md={8} xs={24} key={index}>
+        <div style={{ position: "relative", margin: "5px" }}>
           <a href={`/video/${video._id}`}>
             <img
               src={`http://localhost:5000/${video.thumbnail}`}
